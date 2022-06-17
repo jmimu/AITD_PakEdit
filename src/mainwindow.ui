@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>586</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AITD PAK Editor</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="data.qrc">
+    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEditPAKName">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEditDBName">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Current PAK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Current DB</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="dragDropOverwriteMode">
+       <bool>false</bool>
+      </property>
+      <property name="alternatingRowColors">
+       <bool>true</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>70</number>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>586</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;PAK</string>
+    </property>
+    <addaction name="actionOpenPAK"/>
+    <addaction name="actionSavePAK"/>
+    <addaction name="actionOverwrite_PAK_uncompressed"/>
+    <addaction name="separator"/>
+    <addaction name="actionExport_All_Compressed"/>
+    <addaction name="actionExport_All_Decompressed"/>
+    <addaction name="actionExport_All_Interpreted"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionExport_Compressed"/>
+    <addaction name="actionExport_Decompressed"/>
+    <addaction name="actionExport_Interpreted"/>
+    <addaction name="action_Import"/>
+    <addaction name="action_ImportRaw"/>
+   </widget>
+   <widget class="QMenu" name="menuDataBAse">
+    <property name="title">
+     <string>&amp;DataBase</string>
+    </property>
+    <addaction name="action_OpenDB"/>
+    <addaction name="action_WriteDB"/>
+   </widget>
+   <widget class="QMenu" name="menu_Settings">
+    <property name="title">
+     <string>&amp;Settings</string>
+    </property>
+    <addaction name="actionSet_Dosbox_path"/>
+    <addaction name="actionSet_PKZip_path"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menuFile"/>
+   <addaction name="menuDataBAse"/>
+   <addaction name="menu_Settings"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpenPAK">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Open PAK</string>
+   </property>
+  </action>
+  <action name="actionSavePAK">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Over&amp;write PAK</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>E&amp;xit</string>
+   </property>
+  </action>
+  <action name="actionOverwrite_PAK_uncompressed">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Overwrite PAK &amp;uncompressed</string>
+   </property>
+  </action>
+  <action name="actionExport_all_as_BMP">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Try to export all as &amp;picture</string>
+   </property>
+  </action>
+  <action name="actionExport_Compressed">
+   <property name="text">
+    <string>Export Raw &amp;Compressed</string>
+   </property>
+  </action>
+  <action name="action_Import">
+   <property name="text">
+    <string>Import &amp;Interpreted</string>
+   </property>
+  </action>
+  <action name="action_OpenDB">
+   <property name="text">
+    <string>&amp;OpenDB</string>
+   </property>
+  </action>
+  <action name="action_WriteDB">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Over&amp;writeDB</string>
+   </property>
+  </action>
+  <action name="actionExport_All_Compressed">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Export All &amp;Compressed</string>
+   </property>
+  </action>
+  <action name="actionExport_Decompressed">
+   <property name="text">
+    <string>Export Raw &amp;Decompressed</string>
+   </property>
+  </action>
+  <action name="actionExport_Interpreted">
+   <property name="text">
+    <string>$Export Interpreted</string>
+   </property>
+  </action>
+  <action name="actionExport_All_Decompressed">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Export All &amp;Decompressed</string>
+   </property>
+  </action>
+  <action name="actionExport_All_Interpreted">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Export All &amp;Interpreted</string>
+   </property>
+  </action>
+  <action name="action_ImportRaw">
+   <property name="text">
+    <string>Import &amp;Raw</string>
+   </property>
+  </action>
+  <action name="actionSet_Dosbox_path">
+   <property name="text">
+    <string>Set &amp;Dosbox path</string>
+   </property>
+  </action>
+  <action name="actionSet_PKZip_path">
+   <property name="text">
+    <string>Set &amp;PKZip path</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>lineEditDBName</tabstop>
+  <tabstop>lineEditPAKName</tabstop>
+  <tabstop>tableWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="data.qrc"/>
+ </resources>
+ <connections/>
+</ui>
