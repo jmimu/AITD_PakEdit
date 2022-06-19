@@ -204,7 +204,24 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
     }
     else
     {
-      expectedNumberOfCamera = ((READ_LE_U32(etageVar1))/4);
+      int maxExpectedNumberOfCamera = ((READ_LE_U32(etageVar1))/4);
+      expectedNumberOfCamera = 0;
+
+      int minOffset = 0;
+
+      for(int i=0; i<maxExpectedNumberOfCamera; i++)
+      {
+          int offset = READ_LE_U32(etageVar1 + i * 4);
+          if(offset > minOffset)
+          {
+              minOffset = offset;
+              expectedNumberOfCamera++;
+          }
+          else
+          {
+              break;
+          }
+      }
     }
     printf("expectedNumberOfCamera: %u\n",expectedNumberOfCamera);
 
@@ -359,7 +376,7 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
 
               pCurrentCameraViewedRoom->numCoverZones = numZones =READ_LE_U16(pZoneData);
               pZoneData+=2;
-
+              printf("numZones: %d\n", numZones);
               pCurrentCameraViewedRoom->coverZones = (cameraZoneEntryStruct*)malloc(sizeof(cameraZoneEntryStruct)*numZones);
 
               ASSERT(pCurrentCameraViewedRoom->coverZones);

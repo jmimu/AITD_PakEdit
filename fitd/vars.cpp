@@ -2,7 +2,7 @@
 
 char homePath[512] = "";
 
-enum gameTypeEnum g_gameId;
+enum gameTypeEnum g_gameId=AITD1;
 
 char* currentFoundBody;
 int currentFoundBodyIdx;
