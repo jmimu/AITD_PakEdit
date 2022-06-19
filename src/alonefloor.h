@@ -36,11 +36,9 @@ public:
     bool importCollada(const char *filename, AloneFile *roomsFile, AloneFile *camsFile);
     bool xml2struct(QDomNode &n);
 
-    roomDataStruct* roomDataTable;
+
     AloneFile *mRooms;
     AloneFile *mCams;
-    u32 expectedNumberOfRoom;
-    u32 expectedNumberOfCamera;
 
     std::string hardCol2collada(hardColStruct &hardcol, int index, int roomNum);
     std::string sceZone2collada(sceZoneStruct & sceZone, int index, int roomNum);

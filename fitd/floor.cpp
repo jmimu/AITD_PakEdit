@@ -1,5 +1,4 @@
-#include "types.h"
-#include "room.h"
+#include "floor.h"
 #include "pak.h"
 #include "hqr.h"
 #include "fileAccess.h"
@@ -9,12 +8,12 @@ u32 g_currentFloorRoomRawDataSize = 0;
 u32 g_currentFloorCameraRawDataSize;
 u32 g_currentFloorNumCamera = 0;
 std::vector<cameraDataStruct> g_currentFloorCameraData;
+int expectedNumberOfRoom;
+int expectedNumberOfCamera;
 
 void loadFloor(int floorNumber)
 {
-    int i;
-    int expectedNumberOfRoom;
-    int expectedNumberOfCamera;
+
     char floorFileName[256];
 
     if(g_currentFloorCameraRawData)
@@ -45,7 +44,13 @@ void loadFloor(int floorNumber)
     needChangeRoom = 1;
     changeFloor = 0;
 
+    loadFloorDataReady(floorNumber);
+}
+
     //////////////////////////////////
+void loadFloorDataReady(int floorNumber)
+{
+    int i;
 
     if(roomDataTable)
     {
