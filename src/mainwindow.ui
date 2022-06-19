@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="data.qrc">
-    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
+    <normaloff>:/data/AITD_PakEdit.xpm</normaloff>:/data/AITD_PakEdit.xpm</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
