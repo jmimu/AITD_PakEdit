@@ -131,7 +131,7 @@ bool AloneFile::read(FILE* pakfile,const char* filename,unsigned int index)
         fseek(pakfile,pakInfo.offset,SEEK_CUR);
     }*/
 
-    mComprData = (u8*)malloc(mInfo.discSize);
+    mComprData = (char*)malloc(mInfo.discSize);
     if (fread(mComprData,mInfo.discSize,1,pakfile)!=1)
         printf("Error reading data!\n");
 
@@ -140,7 +140,7 @@ bool AloneFile::read(FILE* pakfile,const char* filename,unsigned int index)
     case 0:
       {
         mInfo.uncompressedSize=mInfo.discSize;
-        mDecomprData = (u8 *) malloc(mInfo.uncompressedSize);
+        mDecomprData = (char*)malloc(mInfo.uncompressedSize);
         memcpy (mDecomprData,mComprData,mInfo.uncompressedSize);
 
         break;
@@ -148,14 +148,14 @@ bool AloneFile::read(FILE* pakfile,const char* filename,unsigned int index)
     case 1:
       {
         std::cout<<"----------- decompress file "<<index<<" -----------"<<std::endl;
-        mDecomprData = (u8 *) malloc(mInfo.uncompressedSize);
-        PAK_explode(mComprData, mDecomprData, mInfo.discSize, mInfo.uncompressedSize, mInfo.info5);
+        mDecomprData = (char*)malloc(mInfo.uncompressedSize);
+        PAK_explode((u8*)mComprData, (u8*)mDecomprData, mInfo.discSize, mInfo.uncompressedSize, mInfo.info5);
         break;
       }
     case 4:
       {
-        mDecomprData = (u8 *) malloc(mInfo.uncompressedSize);
-        PAK_deflate(mComprData, mDecomprData, mInfo.discSize, mInfo.uncompressedSize);
+        mDecomprData = (char*)malloc(mInfo.uncompressedSize);
+        PAK_deflate((u8*)mComprData, (u8*)mDecomprData, mInfo.discSize, mInfo.uncompressedSize);
         break;
       }
     }
@@ -192,7 +192,7 @@ bool AloneFile::exportAsBMP(u32 offset, u32 width, u8* palette)
     }
     u32 height=(mInfo.uncompressedSize-offset)/width;
     printf("Image height seemes to be %d.\n",height);
-    saveBMP(bufferNameBMP, mDecomprData+offset, palette, width, height);
+    saveBMP(bufferNameBMP, (u8*)(mDecomprData+offset), palette, width, height);
 
     return true;
 }
@@ -284,7 +284,7 @@ compress_status AloneFile::compress_dosbox_pkzip()
 
     //copy compressed data to this
     delete mComprData;
-    mComprData = (u8*)malloc(comprSize);
+    mComprData = (char*)malloc(comprSize);
     mInfo.discSize=comprSize;
     memcpy((char*)mComprData,(char*)comprData,mInfo.discSize);
     mInfo.compressionFlag=1;

@@ -43,8 +43,8 @@ public:
     const char* mPAKFilename;
     long mIndex; //long to align
 
-    u8* mComprData;
-    u8* mDecomprData;
+    char* mComprData;
+    char* mDecomprData;
 
     u8 mTailingBytes[0x10];//what is it? Seems not mandatory...
 };

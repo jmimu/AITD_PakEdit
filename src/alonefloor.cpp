@@ -9,6 +9,11 @@
 
 extern const s16 cosTable[];
 
+extern u32 g_currentFloorRoomRawDataSize;
+extern u32 g_currentFloorCameraRawDataSize;
+extern u32 g_currentFloorNumCamera;
+extern std::vector<cameraDataStruct> g_currentFloorCameraData;
+
 u32 AloneRoom::computeSize()
 {
     u32 sz=0;
@@ -38,15 +43,14 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
     mRooms=rooms;
     mCams=cams;
 
-    gameTypeEnum gameId=AITD1;
-    u8* etageVar0=rooms->mDecomprData;
-    u8* etageVar1=cams->mDecomprData;
-    printf("DATA: %x %x %x %x\n",etageVar0[0],etageVar0[1],etageVar0[2],etageVar0[3]);
-    printf("VAL: %u\n",*((u32*)etageVar0));
-
+    g_gameId=AITD1; //for now...
+    g_currentFloorRoomRawData=rooms->mDecomprData;
+    g_currentFloorCameraRawData=cams->mDecomprData;
+    printf("DATA: %x %x %x %x\n",g_currentFloorRoomRawData[0],g_currentFloorRoomRawData[1],g_currentFloorRoomRawData[2],g_currentFloorRoomRawData[3]);
+    printf("VAL: %u\n",*((u32*)g_currentFloorRoomRawData));
 
     g_currentFloorRoomRawDataSize=rooms->mInfo.uncompressedSize;
-    unsigned int cameraDataSize=cams->mInfo.uncompressedSize;
+    g_currentFloorCameraRawDataSize=cams->mInfo.uncompressedSize;
     u32 i;
 
     if(roomDataTable)
@@ -55,27 +59,28 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
       roomDataTable = NULL;
     }
 
-    expectedNumberOfRoom = 0;
-    if(gameId >= AITD3)
+    expectedNumberOfRoom = 0;//TODO: del
+    expectedNumberOfRoom = getNumberOfRoom();
+    /*if(g_gameId >= AITD3)
     {
-      printf("ERROR! make something for gameId >= AITD3!\n");
+      printf("ERROR! make something for g_gameId >= AITD3!\n");
       return false;
     }
-    u32 numMax = (((READ_LE_U32(etageVar0))/4));
+    u32 numMax = (((READ_LE_U32(g_currentFloorRoomRawData))/4));
     for(i=0;i<numMax;i++)
     {
-      if(g_currentFloorRoomRawDataSize >= READ_LE_U32(etageVar0 + i * 4))
+      if(g_currentFloorRoomRawDataSize >= READ_LE_U32(g_currentFloorRoomRawData + i * 4))
         expectedNumberOfRoom++;
       else
         break;
-    }
+    }*/
 
     for(i=0;i<expectedNumberOfRoom;i++)
     {
       u32 j;
-      u8* roomData;
-      u8* hardColData;
-      u8* sceZoneData;
+      char* roomData;
+      char* hardColData;
+      char* sceZoneData;
       roomDataStruct* currentRoomDataPtr;
 
       if(roomDataTable)
@@ -87,13 +92,13 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
         roomDataTable = (roomDataStruct*)malloc(sizeof(roomDataStruct));
       }
 
-      if(gameId >= AITD3)
+      if(g_gameId >= AITD3)
       {
         roomData = rooms->mDecomprData;
       }
       else
       {
-        roomData = (etageVar0 + READ_LE_U32(etageVar0 + i * 4));
+        roomData = (g_currentFloorRoomRawData + READ_LE_U32(g_currentFloorRoomRawData + i * 4));
       }
       currentRoomDataPtr = &roomDataTable[i];
 
@@ -185,11 +190,11 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
     /////////////////////////////////////////////////
     // camera stuff
 
-    if(gameId >= AITD3)
+    if(g_gameId >= AITD3)
     {
       /*char buffer[256];
 
-      if(gameId == AITD3)
+      if(g_gameId == AITD3)
       {
         sprintf(buffer,"CAM%02d",floorNumber);
       }
@@ -199,19 +204,17 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
       }
 
       expectedNumberOfCamera = PAK_getNumFiles(buffer);*/
-      printf("ERROR! make something for gameId >= AITD3!\n");
+      printf("ERROR! make something for g_gameId >= AITD3!\n");
       return false;
     }
     else
     {
-      int maxExpectedNumberOfCamera = ((READ_LE_U32(etageVar1))/4);
+      int maxExpectedNumberOfCamera = ((READ_LE_U32(g_currentFloorCameraRawData))/4);
       expectedNumberOfCamera = 0;
-
       int minOffset = 0;
-
       for(int i=0; i<maxExpectedNumberOfCamera; i++)
       {
-          int offset = READ_LE_U32(etageVar1 + i * 4);
+          int offset = READ_LE_U32(g_currentFloorCameraRawData + i * 4);
           if(offset > minOffset)
           {
               minOffset = offset;
@@ -231,15 +234,15 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
     for(i=0;i<expectedNumberOfCamera;i++)
     {
       printf("Camera %d\n",i);
-      u32 k;
-      u32 offset;
-      u8* currentCameraData;
+      int k;
+      unsigned int offset;
+      unsigned char* currentCameraData;
 
-      if(gameId >= AITD3)
+      if(g_gameId >= AITD3)
       {
         /*char buffer[256];
 
-        if(gameId == AITD3)
+        if(g_gameId == AITD3)
         {
           sprintf(buffer,"CAM%02d",floorNumber);
         }
@@ -249,23 +252,23 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
         }
 
         offset = 0;
-        cameraDataSize = 1;
-        currentCameraData = loadPakSafe(buffer,i);*/
-        printf("ERROR! make something for gameId >= AITD3!\n");
+        g_currentFloorCameraRawDataSize = 1;
+        currentCameraData = (unsigned char*)loadPakSafe(buffer,i);*/
+        printf("ERROR! make something for g_gameId >= AITD3!\n");
       }
       else
       {
-        offset = READ_LE_U32(etageVar1 + i * 4);
+        offset = READ_LE_U32(g_currentFloorCameraRawData + i * 4);
       }
 
       // load cameras
-      if(offset<cameraDataSize)
+      if(offset<g_currentFloorCameraRawDataSize)
       {
         unsigned char* backupDataPtr;
 
-        if(gameId<AITD3)
+        if(g_gameId<AITD3)
         {
-          currentCameraData = (etageVar1 + READ_LE_U32(etageVar1 + i * 4));
+          currentCameraData = (unsigned char*)(g_currentFloorCameraRawData + READ_LE_U32(g_currentFloorCameraRawData + i * 4));
         }
 
         backupDataPtr = currentCameraData;
@@ -286,7 +289,6 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
         //       g_currentFloorCameraData[i].gamma,g_currentFloorCameraData[i].x,g_currentFloorCameraData[i].y,g_currentFloorCameraData[i].z,
         //       g_currentFloorCameraData[i].focal1,g_currentFloorCameraData[i].focal2,g_currentFloorCameraData[i].focal3);
 
-      //next part doesn't seem to work ok well...
         g_currentFloorCameraData[i].numViewedRooms = READ_LE_U16(currentCameraData+0x12);
         printf("CAM: %hx %hx %hx %hx %hx %hx %hx %hx %hx %hx\n",g_currentFloorCameraData[i].alpha,g_currentFloorCameraData[i].beta,
                g_currentFloorCameraData[i].gamma,g_currentFloorCameraData[i].x,g_currentFloorCameraData[i].y,g_currentFloorCameraData[i].z,
@@ -298,6 +300,7 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
         g_currentFloorCameraData[i].viewedRoomTable = (cameraViewedRoomStruct*)malloc(sizeof(cameraViewedRoomStruct)*g_currentFloorCameraData[i].numViewedRooms);
 
         ASSERT(g_currentFloorCameraData[i].viewedRoomTable);
+        memset(g_currentFloorCameraData[i].viewedRoomTable, 0, sizeof(cameraViewedRoomStruct)*g_currentFloorCameraData[i].numViewedRooms);
 
         for(k=0;k<g_currentFloorCameraData[i].numViewedRooms;k++)
         {
@@ -309,13 +312,15 @@ bool AloneFloor::load(AloneFile *rooms,AloneFile *cams)
           pCurrentCameraViewedRoom->offsetToMask = READ_LE_U16(currentCameraData+0x02);
           pCurrentCameraViewedRoom->offsetToCover = READ_LE_U16(currentCameraData+0x04);
 
-          pCurrentCameraViewedRoom->offsetToHybrids = 0;
-          pCurrentCameraViewedRoom->offsetCamOptims = 0;
-          pCurrentCameraViewedRoom->lightX = READ_LE_U16(currentCameraData+0x06);
-          pCurrentCameraViewedRoom->lightY = READ_LE_U16(currentCameraData+0x08);
-          pCurrentCameraViewedRoom->lightZ = READ_LE_U16(currentCameraData+0x0A);
-
-          if(gameId != AITD1)
+          if(g_gameId == AITD1)
+          {
+              pCurrentCameraViewedRoom->offsetToHybrids = 0;
+              pCurrentCameraViewedRoom->offsetCamOptims = 0;
+              pCurrentCameraViewedRoom->lightX = READ_LE_U16(currentCameraData+0x06);
+              pCurrentCameraViewedRoom->lightY = READ_LE_U16(currentCameraData+0x08);
+              pCurrentCameraViewedRoom->lightZ = READ_LE_U16(currentCameraData+0x0A);
+          }
+          else
           {
               pCurrentCameraViewedRoom->offsetToHybrids = READ_LE_U16(currentCameraData+0x06);
               pCurrentCameraViewedRoom->offsetCamOptims = READ_LE_U16(currentCameraData+0x08);
@@ -747,9 +752,9 @@ bool AloneFloor::importCollada(const char *filename,AloneFile *roomsFile,AloneFi
     }
     printf("Found %d cams, %d hardcols, %d scezones.\n",nbCameras,nbHardCols,nbSceZones);
 
-    u8 *roomsData = (u8*)malloc(roomsDataSz);
+    char *roomsData = (char*)malloc(roomsDataSz);
 
-    u8* roomsDataPtr=roomsData;
+    char* roomsDataPtr=roomsData;
     u32 currentOffset=rooms.size()*4+4;//+4 to look like original file... why??
     for (u16 i=0;i<rooms.size();i++)
     {
@@ -801,7 +806,7 @@ bool AloneFloor::importCollada(const char *filename,AloneFile *roomsFile,AloneFi
     roomsFile->mDecomprData=roomsData;
 
     delete roomsFile->mComprData;
-    roomsFile->mComprData = (u8*)malloc(roomsDataSz);
+    roomsFile->mComprData = (char*)malloc(roomsDataSz);
     memcpy((char*)roomsFile->mComprData,(char*)roomsFile->mDecomprData,roomsDataSz);
     roomsFile->mInfo.discSize=roomsFile->mInfo.uncompressedSize;
     roomsFile->mInfo.compressionFlag=0;

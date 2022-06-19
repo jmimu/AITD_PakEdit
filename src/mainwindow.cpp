@@ -365,7 +365,7 @@ bool MainWindow::exportFile(int index, IOType type)
         case FileType::palimage:
             //export bmp with own palette
             printf("Two first bytes: %X %X\n",alonefile.mDecomprData[0],alonefile.mDecomprData[1]);
-            result=alonefile.exportAsBMP(770,320,alonefile.mDecomprData+2);
+            result=alonefile.exportAsBMP(770,320,(u8*)(alonefile.mDecomprData+2));
             break;
         case FileType::rooms:
         case FileType::cams:
@@ -561,7 +561,7 @@ bool MainWindow::importBMP(int index)
     }
 
     //copy values into mDecomprData
-    u8* ptr=mPakFile.getAllFiles().at(index).mDecomprData;
+    u8* ptr=(u8*)mPakFile.getAllFiles().at(index).mDecomprData;
     for (int y=0;y<img.height();y++)
         for (int x=0;x<img.width();x++)
         {
@@ -574,7 +574,7 @@ bool MainWindow::importBMP(int index)
     pakInfoStruct &info=file.mInfo;
 
     delete file.mComprData;
-    file.mComprData = (u8*)malloc(info.uncompressedSize);
+    file.mComprData = (char*)malloc(info.uncompressedSize);
     memcpy((char*)file.mComprData,(char*)file.mDecomprData,info.uncompressedSize);
     info.discSize=info.uncompressedSize;
     info.compressionFlag=0;
@@ -631,8 +631,8 @@ bool MainWindow::importRaw(int index)
 
     delete file.mDecomprData;
     info.uncompressedSize=size;
-    file.mDecomprData = (u8*)malloc(info.uncompressedSize);
-    memcpy(file.mDecomprData,(u8*)data,size);
+    file.mDecomprData = (char*)malloc(info.uncompressedSize);
+    memcpy(file.mDecomprData,data,size);
 
     if (compress)
     {
@@ -670,7 +670,7 @@ bool MainWindow::importRaw(int index)
     } else {
         //tell to use decompressed data
         delete file.mComprData;
-        file.mComprData = (u8*)malloc(info.uncompressedSize);
+        file.mComprData = (char*)malloc(info.uncompressedSize);
         memcpy((char*)file.mComprData,(char*)file.mDecomprData,info.uncompressedSize);
         info.discSize=info.uncompressedSize;
         info.compressionFlag=0;
