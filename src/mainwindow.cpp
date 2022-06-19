@@ -138,6 +138,7 @@ void MainWindow::updateTable()
 {
     ui->lineEditPAKName->setText(mPAKPath);
     ui->tableWidget->clear();
+    ui->tableWidget->setRowCount(0); //make update faster
     ui->tableWidget->setRowCount(mPakFile.getAllFiles().size());
     ui->tableWidget->setColumnCount(7);
     QStringList hzlabels={"Offset","Name","Type","Compr","diskSize","realSize","InfoDB"};

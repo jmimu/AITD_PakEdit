@@ -79,8 +79,7 @@ You have to change those names in order to change objects metadata.
 
 TODO
 ----
-  * crash with bus error when loading listbod2.pak
-  * error with etage4.pak
+  * errors interpreting bodies
   * what is the link between scezone meta and step sample?
   * why is camera export working whithout room coordinates?
   * import floor's cameras
@@ -106,7 +105,8 @@ CD VS Floppy version
 Changelog
 ---------
 v0.06
-  * uses 2021 version of yaz0r's FITD 
+  * uses 2021 version of yaz0r's FITD
+  * fix floor camera interpretation
 
 Older versions, found in https://github.com/jmimu/FITD/tree/master/AITD_PakEdit
 
