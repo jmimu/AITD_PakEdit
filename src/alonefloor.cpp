@@ -4,6 +4,8 @@
 #include <sstream>
 #include <QGenericMatrix>
 #include <QMessageBox>
+#include <ctime>
+#include "version.h"
 
 extern const s16 cosTable[];
 
@@ -537,6 +539,7 @@ std::string AloneFloor::cam2collada_node(cameraDataStruct* cam, int index, int r
 
 void AloneFloor::exportCollada()
 {
+    std::time_t time = std::time(nullptr);
     printf("exportCollada\n");
     char filename[256];
     strcpy(filename,mRooms->mPAKFilename);
@@ -548,11 +551,9 @@ void AloneFloor::exportCollada()
     oss<<"<COLLADA xmlns=\"http://www.collada.org/2005/11/COLLADASchema\" version=\"1.4.1\">\n";
     oss<<"  <asset>\n";
     oss<<"    <contributor>\n";
-    oss<<"      <author>Blender User</author>\n";
-    oss<<"      <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f2352830</authoring_tool>\n";
+    oss<<"      <author>AITD PakEdit v"<<EDITOR_VERSION<<"</author>\n";
     oss<<"    </contributor>\n";
-    oss<<"    <created>2017-08-21T17:33:59</created>\n";
-    oss<<"    <modified>2017-08-21T17:33:59</modified>\n";
+    oss<<"    <created>"<<std::asctime(std::localtime(&time))<<"</created>\n";
     oss<<"    <unit name=\"meter\" meter=\"1\"/>\n";
     oss<<"    <up_axis>Z_UP</up_axis>\n";
     oss<<"  </asset>\n";
