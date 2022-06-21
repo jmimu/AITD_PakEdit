@@ -239,9 +239,7 @@ void MainWindow::exportAll_Compressed()
             continue;//export only rooms, cams will go with it
         exportFile(i,IO_COMPRESSED);
     }
-    QMessageBox msgBox;
-    msgBox.setText("Done!");
-    msgBox.exec();
+    QMessageBox::information(this, "Finished", "Done!");
 }
 
 void MainWindow::exportAll_Decompressed()
@@ -252,9 +250,7 @@ void MainWindow::exportAll_Decompressed()
             continue;//export only rooms, cams will go with it
         exportFile(i,IO_DECOMPRESSED);
     }
-    QMessageBox msgBox;
-    msgBox.setText("Done!");
-    msgBox.exec();
+    QMessageBox::information(this, "Finished", "Done!");
 }
 
 void MainWindow::exportAll_Interpreted()
@@ -265,9 +261,7 @@ void MainWindow::exportAll_Interpreted()
             continue;//export only rooms, cams will go with it
         exportFile(i,IO_INTERPRETED);
     }
-    QMessageBox msgBox;
-    msgBox.setText("Done!");
-    msgBox.exec();
+    QMessageBox::information(this, "Finished", "Done!");
 }
 
 int MainWindow::getSelectedIndex()
@@ -276,9 +270,7 @@ int MainWindow::getSelectedIndex()
 
     if (select->selectedRows().size()==0)
     {
-        QMessageBox msgBox;
-        msgBox.setText("Please select a row!");
-        msgBox.exec();
+        QMessageBox::critical(this, "Error", "Please select a row!");
         return -1;
     }
 
@@ -292,9 +284,7 @@ bool MainWindow::exportSelectedFile_Compressed()
     if (index<0) return false;
     if (exportFile(index,IO_COMPRESSED))
     {
-        QMessageBox msgBox;
-        msgBox.setText("Done!");
-        msgBox.exec();
+        QMessageBox::information(this, "Finished", "Done!");
         return true;
     }
     return false;
@@ -305,9 +295,7 @@ bool MainWindow::exportSelectedFile_Decompressed()
     if (index<0) return false;
     if (exportFile(index,IO_DECOMPRESSED))
     {
-        QMessageBox msgBox;
-        msgBox.setText("Done!");
-        msgBox.exec();
+        QMessageBox::information(this, "Finished", "Done!");
         return true;
     }
     return false;
@@ -318,9 +306,7 @@ bool MainWindow::exportSelectedFile_Interpreted()
     if (index<0) return false;
     if (exportFile(index,IO_INTERPRETED))
     {
-        QMessageBox msgBox;
-        msgBox.setText("Done!");
-        msgBox.exec();
+        QMessageBox::information(this, "Finished", "Done!");
         return true;
     }
     return false;
@@ -377,9 +363,7 @@ bool MainWindow::exportFile(int index, IOType type)
             if ((mDB.get(mPAKname.toStdString(),0).type!=FileType::rooms)
                     ||(mDB.get(mPAKname.toStdString(),1).type!=FileType::cams))
             {
-                QMessageBox msgBox;
-                msgBox.setText("ERROR! For a floor, file 0 must be a \"Rooms\", and file 1 a \"Cameras\"!");
-                msgBox.exec();
+                QMessageBox::critical(this, "Error", "For a floor, file 0 must be a \"Rooms\", and file 1 a \"Cameras\"!");
                 result=false;
             }else{
                 AloneFloor floor;
@@ -399,9 +383,7 @@ bool MainWindow::exportFile(int index, IOType type)
         }
         break;
         default:
-            QMessageBox msgBox;
-            msgBox.setText(QString("File type %1 export not implemented!").arg(mDB.mFileTypes[(int)file.type].c_str()));
-            msgBox.exec();
+            QMessageBox::critical(this, "Error", QString("File type %1 export not implemented!").arg(mDB.mFileTypes[(int)file.type].c_str()));
             result=false;
             break;
         }
@@ -433,9 +415,7 @@ bool MainWindow::importRawFile()
 
     if (!result) return false;
 
-    QMessageBox msgBox;
-    msgBox.setText("Done!");
-    msgBox.exec();
+    QMessageBox::information(this, "Finished", "Done!");
 
     updateTable();
 
@@ -450,9 +430,7 @@ bool MainWindow::importFile()
 
     if (select->selectedRows().size()==0)
     {
-        QMessageBox msgBox;
-        msgBox.setText("Please select a row!");
-        msgBox.exec();
+        QMessageBox::critical(this, "Error", "Please select a row!");
         return false;
     }
 
@@ -478,9 +456,7 @@ bool MainWindow::importFile()
         if ((mDB.get(mPAKname.toStdString(),0).type!=FileType::rooms)
                 ||(mDB.get(mPAKname.toStdString(),1).type!=FileType::cams))
         {
-            QMessageBox msgBox;
-            msgBox.setText("ERROR! For a floor, file 0 must be a \"Rooms\", and file 1 a \"Cameras\"!");
-            msgBox.exec();
+            QMessageBox::critical(this, "Error", "For a floor, file 0 must be a \"Rooms\", and file 1 a \"Cameras\"!");
             result=false;
         }else{
             result=importFloor();
@@ -488,18 +464,14 @@ bool MainWindow::importFile()
         break;
 
     default:
-        QMessageBox msgBox;
-        msgBox.setText(QString("File type %1 import not implemented!").arg(mDB.mFileTypes[(int)file.type].c_str()));
-        msgBox.exec();
+        QMessageBox::critical(this, "Error", QString("File type %1 import not implemented!").arg(mDB.mFileTypes[(int)file.type].c_str()));
         return false;
 
     }
 
     if (!result) return false;
 
-    QMessageBox msgBox;
-    msgBox.setText("Done!");
-    msgBox.exec();
+    QMessageBox::information(this, "Finished", "Done!");
 
     updateTable();
 
@@ -537,30 +509,22 @@ bool MainWindow::importBMP(int index)
     QImage img(filename.toStdString().c_str());
     if (img.isNull())
     {
-        QMessageBox msgBox;
-        msgBox.setText("Problem loading image.");
-        msgBox.exec();
+        QMessageBox::critical(this, "Error", "Problem loading image.");
         return false;
     }
 
     printf("count: %d\n",img.colorCount());
     if (img.colorCount()!=256)
     {
-        QMessageBox msgBox;
-        msgBox.setText("The picture must be in 256 indexed colors.");
-        msgBox.setIcon(QMessageBox::Critical);
-        msgBox.exec();
+        QMessageBox::critical(this, "Error", "The picture must be 256 indexed colors.");
         return false;
     }
 
     if (img.width()*img.height()!=(int)mPakFile.getAllFiles().at(index).mInfo.uncompressedSize)
     {
-        QMessageBox msgBox;
-        msgBox.setText(QString("Picture size is %1, but file size is %2...")
-                       .arg(img.width()*img.height())
-                       .arg(mPakFile.getAllFiles().at(index).mInfo.uncompressedSize));
-        msgBox.setIcon(QMessageBox::Critical);
-        msgBox.exec();
+        QMessageBox::critical(this, "Error", QString("Picture size is %1, but file size is %2...")
+                           .arg(img.width()*img.height())
+                           .arg(mPakFile.getAllFiles().at(index).mInfo.uncompressedSize));
         return false;
     }
 
@@ -625,9 +589,7 @@ bool MainWindow::importRaw(int index)
         //check VOX header
         if (strncmp("Creative Voice File",data,19)!=0)
         {
-            QMessageBox msgBox;
-            msgBox.setText("Sound file must be in VOX format!");
-            msgBox.exec();
+            QMessageBox::critical(this, "Error", "Sound file must be in VOX format!");
             free(data);
             return false;
         }
@@ -644,30 +606,25 @@ bool MainWindow::importRaw(int index)
         QMessageBox msgBox;
         switch (res) {
         case ok:
-        //    msgBox.setText("Data compression successful!");
-        //    msgBox.exec();
+            //QMessageBox::information(this, "Finished", "Data compression successful!");
             break;
         case nodosbox:
-            msgBox.setText("Dosbox not found. Please set dosbox path.");
-            msgBox.exec();
+            QMessageBox::critical(this, "Error", "Dosbox not found. Please set dosbox path.");
             free(data);
             return false;
             break;
         case nozip:
-            msgBox.setText("No zip file created. Please check PKZip path.");
-            msgBox.exec();
+            QMessageBox::critical(this, "Error", "No zip file created. Please check PKZip path.");
             free(data);
             return false;
             break;
         case notimplode:
-            msgBox.setText("Wrong zip file compression (file too small?).");
-            msgBox.exec();
+            QMessageBox::critical(this, "Error", "Wrong zip file compression (file too small?).");
             free(data);
             return false;
             break;
         default:
-            msgBox.setText("Data compression: unknown error");
-            msgBox.exec();
+            QMessageBox::critical(this, "Error", "Data compression: unknown error.");
             free(data);
             return false;
         }
