@@ -15,7 +15,7 @@ or (at your option) any later version. A copy of this license an be found in
 the file LICENSE.txt included with the source code of this program.
 
 Files in `fitd` folder are Yaz0r's FITD source (https://github.com/yaz0r/FITD)
-with minimal modifications.
+with minimal modifications from commit eafabb8cffb09.
 
 Uses jsoncpp (github.com/open-source-parsers/jsoncpp).
 
@@ -65,8 +65,8 @@ Overwrite the PAK file (a .PAK.BAK file will be created to save previous version
 Run the game with the new PAK.
 
 To be able to re-import compressed files (mandatory for bodies), you have
-to install Dosbox emulator and set dosbox executable path (if it is not in system's PATH).
-You also have to get PKZip 1.1 executable
+to install Dosbox emulator and set dosbox executable path (if it is not in system's PATH) with `Settings>Set Dosbox Path` menu.
+You also have to get PKZip 1.1 executable, and give its path with `Settings>Set PKZip Path` menu.
 
 Floors are exported in Collada format.
 You can open it with meshlab or blender.

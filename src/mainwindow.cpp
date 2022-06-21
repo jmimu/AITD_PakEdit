@@ -76,12 +76,15 @@ bool MainWindow::setPkZipPath()
     QFile tmp(DOSBOX_CONF_FILE);
     tmp.setPermissions((QFileDevice::Permission)0x6666);
     QFile::remove(DOSBOX_CONF_FILE);
-    QFile::copy("dosbox_pakedit_template.conf", DOSBOX_CONF_FILE);
+    QFile::copy(":/data/dosbox_pakedit_template.conf", DOSBOX_CONF_FILE);
+    QFile::setPermissions(DOSBOX_CONF_FILE, QFileDevice::ReadOwner|QFileDevice::WriteOwner);
     QFile tmp2(DOSBOX_CONF_FILE);
     if (tmp2.open(QIODevice::WriteOnly | QIODevice::Append)) {
         QString toAdd = QString("mount c %1\nc:\ndel tmp.zip\npkzip -ei tmp.zip tmp.dat\nexit\n").arg(Settings::current.pkzipDir);
         tmp2.write(toAdd.toUtf8());
         tmp2.close();
+    }else{
+        QMessageBox::critical(this, "Error", "Error writing dosbox conf file.");
     }
     return true;
 }
