@@ -216,7 +216,7 @@
   </action>
   <action name="actionExport_Interpreted">
    <property name="text">
-    <string>$Export Interpreted</string>
+    <string>&amp;Export Interpreted</string>
    </property>
   </action>
   <action name="actionExport_All_Decompressed">

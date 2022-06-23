@@ -376,11 +376,8 @@ bool MainWindow::exportFile(int index, IOType type)
             result=alonefile.exportUncompressed(bufferNameOut);
             break;
         case FileType::body:
-        //export ply
-        {
-            AloneBody body(&alonefile);
-            result=body.load();
-        }
+            //export ply
+            result=body2ply(&alonefile);
         break;
         default:
             QMessageBox::critical(this, "Error", QString("File type %1 export not implemented!").arg(mDB.mFileTypes[(int)file.type].c_str()));
