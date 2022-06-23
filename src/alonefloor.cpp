@@ -260,7 +260,10 @@ void AloneFloor::exportCollada()
     for (unsigned int i=0;i<expectedNumberOfRoom;i++)
     {
         roomDataStruct* currentRoomDataPtr = &roomDataTable[i];
-        printf("exportCollada room %d: (%d,%d,%d)\n",i,currentRoomDataPtr->worldX,currentRoomDataPtr->worldY,currentRoomDataPtr->worldZ);
+        printf("exportCollada room %d: (%d,%d,%d) %d Cam, %d HardCol, %d SceZone\n",i,
+               currentRoomDataPtr->worldX,currentRoomDataPtr->worldY,currentRoomDataPtr->worldZ,
+               currentRoomDataPtr->numCameraInRoom,
+               currentRoomDataPtr->numHardCol,currentRoomDataPtr->numSceZone);
         for (unsigned int j=0;j<currentRoomDataPtr->numCameraInRoom;j++)
         {
             u16 idx=currentRoomDataPtr->cameraIdxTable[j];

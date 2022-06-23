@@ -31,6 +31,7 @@ int getNumberOfRoom()
 {
     int i;
     int j = 0;
+    long offset = 0, prev_offset;
 
     if(g_gameId >= AITD3)
     {
@@ -51,19 +52,23 @@ int getNumberOfRoom()
     {
 
         int numMax = (((READ_LE_U32(g_currentFloorRoomRawData))/4));
-
+        printf("numMax rooms: %d\n", numMax);
         for(i=0;i<numMax;i++)
         {
-            if(g_currentFloorRoomRawDataSize >= READ_LE_U32(g_currentFloorRoomRawData + i * 4))
+            prev_offset = offset;
+            offset = READ_LE_U32(g_currentFloorRoomRawData + i * 4);
+            if ((g_currentFloorRoomRawDataSize >= offset) && (offset > prev_offset))
             {
                 j++;
             }
             else
             {
+                printf("Final num rooms: %d\n", j);
                 return j;
             }
         }
     }
+    printf("Final num rooms: %d\n", j);
     return j;
 }
 

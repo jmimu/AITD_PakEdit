@@ -79,7 +79,7 @@ You have to change those names in order to change objects metadata.
 
 TODO
 ----
-  * errors interpreting bodies
+  * interpret animations
   * what is the link between scezone meta and step sample?
   * why is camera export working whithout room coordinates?
   * import floor's cameras
@@ -107,6 +107,7 @@ Changelog
 v0.06
   * uses 2021 version of yaz0r's FITD
   * fix floor camera interpretation
+  * fix body interpretation
 
 Older versions, found in https://github.com/jmimu/FITD/tree/master/AITD_PakEdit
 
