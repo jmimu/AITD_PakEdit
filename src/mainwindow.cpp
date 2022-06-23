@@ -148,7 +148,7 @@ void MainWindow::updateTable()
     QStringList vertlabels;
     for (unsigned int i=0;i<mPakFile.getAllFiles().size();i++)
     {
-        std::cout<<"updateTable file "<<i<<std::endl;
+        //std::cout<<"updateTable file "<<i<<std::endl;
         mDB.setDefaultCompr(mPAKname.toStdString(),i,mPakFile.getAllFiles()[i].mInfo.compressionFlag);
 
         ui->tableWidget->setItem(i,0,new QTableWidgetItem(QString::number(mPakFile.getAllFiles()[i].mFileOffset, 16)));

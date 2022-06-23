@@ -38,7 +38,8 @@ Linux:
 
 Automatic cross compilation from linux
 --------------------------------------
-    docker pull crossqt1804
+
+Create docker image from: https://github.com/jmimu/crossqt
 
 Then, from distrib directory: 
 
@@ -81,8 +82,6 @@ TODO
 ----
   * interpret animations
   * what is the link between scezone meta and step sample?
-  * why is camera export working whithout room coordinates?
-  * import floor's cameras
   * make a scene for each room in collada
   * text export: remove last char, convert to iso-8859-1 with dos2unix -850
   * fix file name encoding "caméra"
@@ -104,6 +103,10 @@ CD VS Floppy version
 
 Changelog
 ---------
+v0.07
+  * fix PKZip path setting
+  * fix body interpretation
+  * fix number of rooms
 v0.06
   * uses 2021 version of yaz0r's FITD
   * fix floor camera interpretation
@@ -128,7 +131,6 @@ v0.02:
   * import/export VOX
   * export pal+pic
   * start export floors
-
 v0.01:
   * database
   * import/export pictures
