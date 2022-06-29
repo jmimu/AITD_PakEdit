@@ -1,0 +1,26 @@
+#ifndef _RENDERER_H_
+#define _RENDERER_H_
+
+#include "vars.h"
+#include "anim.h"
+
+extern int BBox3D1;
+extern int BBox3D2;
+extern int BBox3D3;
+extern int BBox3D4;
+
+#define NUM_MAX_POINT_IN_POINT_BUFFER 800
+#define NUM_MAX_BONES 50
+
+extern s16 pointBuffer[NUM_MAX_POINT_IN_POINT_BUFFER*3];
+extern int numOfPoints;
+
+void transformPoint(float* ax, float* bx, float* cx);
+
+int AnimNuage(int x,int y,int z,int alpha,int beta,int gamma, sBody* pBody);
+
+int AffObjet(int var0,int var1,int var2,int var3,int var4,int var5,void* modelPtr);
+
+void computeScreenBox(int x, int y, int z, int alpha, int beta, int gamma, char* bodyPtr);
+
+#endif

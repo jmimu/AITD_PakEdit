@@ -12,6 +12,7 @@ QMAKE_CXXFLAGS_RELEASE -= -O2
 QMAKE_CXXFLAGS_RELEASE *= -O0
 
 SOURCES += src/main.cpp \
+    fitd/renderer.cpp \
     src/bmp.cpp \
     src/mainwindow.cpp \
     src/alonefile.cpp \
@@ -31,6 +32,7 @@ SOURCES += src/main.cpp \
     fitd/pak.cpp
 
 HEADERS  += src/mainwindow.h \
+    fitd/renderer.h \
     src/alonefile.h \
     src/bmp.h \
     src/pakfile.h \

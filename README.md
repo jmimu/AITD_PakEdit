@@ -80,7 +80,7 @@ You have to change those names in order to change objects metadata.
 
 TODO
 ----
-  * interpret animations
+  * make an import body blender plugin
   * what is the link between scezone meta and step sample?
   * make a scene for each room in collada
   * text export: remove last char, convert to iso-8859-1 with dos2unix -850
@@ -103,6 +103,9 @@ CD VS Floppy version
 
 Changelog
 ---------
+
+v0.08
+  * fix body ply export when multiple groups
 v0.07
   * fix PKZip path setting
   * fix body interpretation
