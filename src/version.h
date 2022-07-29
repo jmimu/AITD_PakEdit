@@ -1,1 +1,1 @@
-#define EDITOR_VERSION "0.07"
+#define EDITOR_VERSION "0.08"

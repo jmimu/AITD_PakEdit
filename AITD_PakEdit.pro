@@ -11,6 +11,8 @@ QMAKE_CXXFLAGS_RELEASE -= -O1
 QMAKE_CXXFLAGS_RELEASE -= -O2
 QMAKE_CXXFLAGS_RELEASE *= -O0
 
+CONFIG += c++11
+
 SOURCES += src/main.cpp \
     fitd/renderer.cpp \
     src/bmp.cpp \

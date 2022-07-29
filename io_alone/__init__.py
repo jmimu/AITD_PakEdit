@@ -21,15 +21,16 @@
 bl_info = {
     "name": "Alone in the Dark body format",
     "author": "jmimu",
-    "version": (1, 0),
-    "blender": (2, 80, 0),
-    "location": "File > Import/Export > Alone Body",
+    "version": (0, 8),
+    "blender": (3, 0, 0),
+    #"location": "File > Import/Export > Alone Body",
+    "location": "File > Import/Export",
     "description": "Import-Export: Alone in the Dark body",
     "doc_url": "jmimu.free.fr",
     "category": "Import-Export",
 }
 
-# Copyright (C) 2021: jmimu@free.fr
+# Copyright (C) 2021-2022: jmimu@free.fr
 
 if "bpy" in locals():
     import importlib
@@ -129,6 +130,8 @@ class ExportBody(bpy.types.Operator, ExportHelper):
 
         keywords = self.as_keywords(
             ignore=(
+                "axis_forward",
+                "axis_up",
                 "global_scale",
                 "check_existing",
                 "filter_glob",
@@ -194,6 +197,8 @@ class BODY_PT_export_transform(bpy.types.Panel):
         sfile = context.space_data
         operator = sfile.active_operator
 
+        layout.prop(operator, "axis_forward")
+        layout.prop(operator, "axis_up")
         layout.prop(operator, "global_scale")
 
 
