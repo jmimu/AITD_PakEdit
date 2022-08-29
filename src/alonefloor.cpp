@@ -162,8 +162,8 @@ std::string AloneFloor::cam2collada_node(cameraDataStruct* cam, int index, int r
         cosTable[cam->beta&0x3FF]/32768.0,0,cosTable[(cam->beta+0x100)&0x3FF]/32768.0
     };
     double rotZ_[]={
-        cosTable[(cam->gamma+0x100)&0x3FF]/32768.0,-cosTable[cam->gamma&0x3FF]/32768.0,0,
-        cosTable[cam->gamma&0x3FF]/32768.0,cosTable[(cam->gamma+0x100)&0x3FF]/32768.0,0,
+        cosTable[(cam->gamma+0x100)&0x3FF]/32768.0,cosTable[cam->gamma&0x3FF]/32768.0,0,
+        -cosTable[cam->gamma&0x3FF]/32768.0,cosTable[(cam->gamma+0x100)&0x3FF]/32768.0,0,
         0,0,1
     };
     QGenericMatrix<3,3,double> rotX(rotX_);
