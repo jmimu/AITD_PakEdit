@@ -267,7 +267,7 @@ void AloneFloor::exportCollada()
         for (unsigned int j=0;j<currentRoomDataPtr->numCameraInRoom;j++)
         {
             u16 idx=currentRoomDataPtr->cameraIdxTable[j];
-            oss<<cam2collada_node(&g_currentFloorCameraData[idx],idx,0);//TODO: room center not used?
+            oss<<cam2collada_node(&g_currentFloorCameraData[idx],idx,i);//TODO: room center not used?
         }
 
         for (unsigned int j=0;j<currentRoomDataPtr->numHardCol;j++)

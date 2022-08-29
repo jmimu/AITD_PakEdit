@@ -104,6 +104,8 @@ CD VS Floppy version
 Changelog
 ---------
 
+v0.09
+  * fix cameras in etage export
 v0.08
   * fix body ply export when multiple groups
   * update blender body exporter for blender 3.x
