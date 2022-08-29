@@ -120,8 +120,8 @@ std::string AloneFloor::cam2collada_lib(cameraDataStruct* cam, int index)
     oss<<"          <perspective>\n";
     oss<<"            <xfov sid=\"xfov\">"<<fovX<<"</xfov>\n";
     oss<<"            <yfov sid=\"yfov\">"<<fovY<<"</yfov>\n";
-    oss<<"            <znear sid=\"znear\">2</znear>\n";
-    oss<<"            <zfar sid=\"zfar\">12</zfar>\n";
+    oss<<"            <znear sid=\"znear\">0.1</znear>\n";
+    oss<<"            <zfar sid=\"zfar\">100</zfar>\n";
     oss<<"          </perspective>\n";
     oss<<"        </technique_common>\n";
     oss<<"      </optics>\n";
