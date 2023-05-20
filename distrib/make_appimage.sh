@@ -22,16 +22,16 @@ echo "version : $version"
 distrib/make_shortcut.sh
 
 cd $1
-  rm -Rf AppDir/
+  rm -Rf /AppDir/
   make -j5
-  make install INSTALL_ROOT=AppDir
-  mkdir -p AppDir/usr/share/applications/
-  mkdir -p AppDir/usr/share/pixmaps/
-  cp AppDir/usr/bin/AITD_PakEdit AppDir/usr/bin/AITD_PakEdit_$version
-  cp $base/distrib/AITD_PakEdit.desktop AppDir/usr/share/applications/AITD_PakEdit_$version.desktop
-  cp $base/data/AITD_PakEdit.xpm AppDir/usr/share/pixmaps/AITD_PakEdit_$version.xpm
+  make install INSTALL_ROOT=/AppDir
+  mkdir -p /AppDir/usr/share/applications/
+  mkdir -p /AppDir/usr/share/pixmaps/
+  cp /AppDir/usr/bin/AITD_PakEdit /AppDir/usr/bin/AITD_PakEdit_$version
+  cp $base/distrib/AITD_PakEdit.desktop /AppDir/usr/share/applications/AITD_PakEdit_$version.desktop
+  cp $base/data/AITD_PakEdit.xpm /AppDir/usr/share/pixmaps/AITD_PakEdit_$version.xpm
 cd -
-./linuxdeploy-x86_64.AppImage --appdir $1/AppDir --output appimage --plugin qt
+./linuxdeploy-x86_64.AppImage --appdir /AppDir --output appimage --plugin qt
 
 echo "Ok!"
 
