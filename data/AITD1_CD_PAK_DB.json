@@ -972,13 +972,13 @@
 			"20" : 
 			{
 				"default_compr" : 1,
-				"info" : "Edward Carnby’s introduction (German)",
+				"info" : "Edward Carnby\u2019s introduction (German)",
 				"type" : 1
 			},
 			"21" : 
 			{
 				"default_compr" : 1,
-				"info" : "Emily Hartwood’s introduction (German)",
+				"info" : "Emily Hartwood\u2019s introduction (German)",
 				"type" : 1
 			},
 			"3" : 
@@ -1302,13 +1302,13 @@
 			"20" : 
 			{
 				"default_compr" : 1,
-				"info" : "Edward Carnby’s introduction (English)",
+				"info" : "Edward Carnby\u2019s introduction (English)",
 				"type" : 1
 			},
 			"21" : 
 			{
 				"default_compr" : 1,
-				"info" : "Emily Hartwood’s introduction (English)",
+				"info" : "Emily Hartwood\u2019s introduction (English)",
 				"type" : 1
 			},
 			"3" : 
@@ -1557,13 +1557,13 @@
 			"20" : 
 			{
 				"default_compr" : 1,
-				"info" : "Edward Carnby’s introduction (French)",
+				"info" : "Edward Carnby\u2019s introduction (French)",
 				"type" : 1
 			},
 			"21" : 
 			{
 				"default_compr" : 1,
-				"info" : "Emily Hartwood’s introduction (French)",
+				"info" : "Emily Hartwood\u2019s introduction (French)",
 				"type" : 1
 			},
 			"3" : 
@@ -1692,13 +1692,13 @@
 			"20" : 
 			{
 				"default_compr" : 1,
-				"info" : "Edward Carnby’s introduction (Italian)",
+				"info" : "Edward Carnby\u2019s introduction (Italian)",
 				"type" : 1
 			},
 			"21" : 
 			{
 				"default_compr" : 1,
-				"info" : "Emily Hartwood’s introduction (Italian)",
+				"info" : "Emily Hartwood\u2019s introduction (Italian)",
 				"type" : 1
 			},
 			"3" : 
@@ -8808,3379 +8808,3379 @@
 			"0" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 chest",
 				"type" : 0
 			},
 			"1" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 wardrobe",
 				"type" : 0
 			},
 			"10" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "oil lamp in use or just found",
 				"type" : 0
 			},
 			"100" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 north door closing when first entering E2",
 				"type" : 0
 			},
 			"101" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R0-E2R2 north door main",
 				"type" : 0
 			},
 			"102" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 north door player opening",
 				"type" : 0
 			},
 			"103" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 north door closing",
 				"type" : 0
 			},
 			"104" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 north door player closing",
 				"type" : 0
 			},
 			"105" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R0-E2R1 north door main",
 				"type" : 0
 			},
 			"106" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R1 north door opening",
 				"type" : 0
 			},
 			"107" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R1 south door opening",
 				"type" : 0
 			},
 			"108" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R1 north door player opening",
 				"type" : 0
 			},
 			"109" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R1 north door closing",
 				"type" : 0
 			},
 			"11" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "dropping",
 				"type" : 0
 			},
 			"110" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R1 north door player closing",
 				"type" : 0
 			},
 			"111" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R0-E2R1 south door main",
 				"type" : 0
 			},
 			"112" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R1 south door player opening",
 				"type" : 0
 			},
 			"113" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R1 south door closing",
 				"type" : 0
 			},
 			"114" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R1 south door player closing",
 				"type" : 0
 			},
 			"115" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R0 script",
 				"type" : 0
 			},
 			"116" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R0 script",
 				"type" : 0
 			},
 			"117" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R0 script",
 				"type" : 0
 			},
 			"118" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Fragments of the Book of Abdul",
 				"type" : 0
 			},
 			"119" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Story of a Louisana Plantation",
 				"type" : 0
 			},
 			"12" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "rifle",
 				"type" : 0
 			},
 			"120" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "The Sons of the Sun",
 				"type" : 0
 			},
 			"121" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Terra Incognita",
 				"type" : 0
 			},
 			"122" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "Vagabond initiator",
 				"type" : 0
 			},
 			"123" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "Vagabond roaming",
 				"type" : 0
 			},
 			"124" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R1 script",
 				"type" : 0
 			},
 			"125" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1 arrows initiator",
 				"type" : 0
 			},
 			"126" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1 arrows roaming",
 				"type" : 0
 			},
 			"127" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1 axes initiator",
 				"type" : 0
 			},
 			"128" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1 axes roaming",
 				"type" : 0
 			},
 			"129" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R2 script",
 				"type" : 0
 			},
 			"13" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "Jeremy's Letter",
 				"type" : 0
 			},
 			"130" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "sword",
 				"type" : 0
 			},
 			"131" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R2 Knight idling",
 				"type" : 0
 			},
 			"132" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R2 Knight aggroed",
 				"type" : 0
 			},
 			"133" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R3-E2R4 door main",
 				"type" : 0
 			},
 			"134" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R3-E2R4 door opening",
 				"type" : 0
 			},
 			"135" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R3-E2R4 door player opening",
 				"type" : 0
 			},
 			"136" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R3-E2R4 door closing",
 				"type" : 0
 			},
 			"137" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R3-E2R4 door player closing",
 				"type" : 0
 			},
 			"138" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R3 script",
 				"type" : 0
 			},
 			"139" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R3 bird entry",
 				"type" : 0
 			},
 			"14" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "Indian cover",
 				"type" : 0
 			},
 			"140" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Jeremy Hartwood's Notebook",
 				"type" : 0
 			},
 			"141" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R3 bird initiator",
 				"type" : 0
 			},
 			"142" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R3 bird roaming",
 				"type" : 0
 			},
 			"143" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R2-E2R4 door main",
 				"type" : 0
 			},
 			"144" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R2-E2R4 door opening",
 				"type" : 0
 			},
 			"145" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R2-E2R4 door player opening",
 				"type" : 0
 			},
 			"146" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R2-E2R4 door closing",
 				"type" : 0
 			},
 			"147" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R2-E2R4 door player closing",
 				"type" : 0
 			},
 			"148" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R1-E2R4 door main",
 				"type" : 0
 			},
 			"149" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1-E2R4 door opening",
 				"type" : 0
 			},
 			"15" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Extract from the Golden Fleece",
 				"type" : 0
 			},
 			"150" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1-E2R4 door player opening",
 				"type" : 0
 			},
 			"151" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1-E2R4 door closing",
 				"type" : 0
 			},
 			"152" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1-E2R4 door player closing",
 				"type" : 0
 			},
 			"153" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R4 script",
 				"type" : 0
 			},
 			"154" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R4-E2R5 door main",
 				"type" : 0
 			},
 			"155" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R4-E2R5 door opening",
 				"type" : 0
 			},
 			"156" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R4-E2R5 door player opening",
 				"type" : 0
 			},
 			"157" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R4-E2R5 door closing",
 				"type" : 0
 			},
 			"158" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R4-E2R5 door player closing",
 				"type" : 0
 			},
 			"159" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R5 script",
 				"type" : 0
 			},
 			"16" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 zombie waiting",
 				"type" : 0
 			},
 			"160" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R5 first aid case",
 				"type" : 0
 			},
 			"161" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R5 flask",
 				"type" : 0
 			},
 			"162" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "jug",
 				"type" : 0
 			},
 			"163" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "ashtray being removed",
 				"type" : 0
 			},
 			"164" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "drinking water from jug",
 				"type" : 0
 			},
 			"165" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R5 jellyfish idling",
 				"type" : 0
 			},
 			"166" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R5 jellyfish aggroed",
 				"type" : 0
 			},
 			"167" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R4-E2R6 door main",
 				"type" : 0
 			},
 			"168" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R4-E2R6 door opening",
 				"type" : 0
 			},
 			"169" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R4-E2R6 door player opening",
 				"type" : 0
 			},
 			"17" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 zombie rising",
 				"type" : 0
 			},
 			"170" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R4-E2R6 door closing",
 				"type" : 0
 			},
 			"171" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R4-E2R6 door player closing",
 				"type" : 0
 			},
 			"172" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R6 script",
 				"type" : 0
 			},
 			"173" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R6 bullets",
 				"type" : 0
 			},
 			"174" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "very heavy statuette",
 				"type" : 0
 			},
 			"175" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Diary of a journey",
 				"type" : 0
 			},
 			"176" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R1-E2R7 door main",
 				"type" : 0
 			},
 			"177" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1-E2R7 door opening",
 				"type" : 0
 			},
 			"178" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1-E2R7 door player opening",
 				"type" : 0
 			},
 			"179" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1-E2R7 door closing",
 				"type" : 0
 			},
 			"18" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 zombie roaming",
 				"type" : 0
 			},
 			"180" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R1-E2R7 door player closing",
 				"type" : 0
 			},
 			"181" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "grandfather clock",
 				"type" : 0
 			},
 			"182" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R7 script",
 				"type" : 0
 			},
 			"183" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "study key",
 				"type" : 0
 			},
 			"184" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "false book",
 				"type" : 0
 			},
 			"185" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "The Creatures of the Night",
 				"type" : 0
 			},
 			"186" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R8 script",
 				"type" : 0
 			},
 			"187" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "vorpal dagger",
 				"type" : 0
 			},
 			"188" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R8 dagger",
 				"type" : 0
 			},
 			"189" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R8 dagger",
 				"type" : 0
 			},
 			"19" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E0R0 bird initiator",
 				"type" : 0
 			},
 			"190" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "talisman",
 				"type" : 0
 			},
 			"191" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Reflections on the Power of the Verb",
 				"type" : 0
 			},
 			"192" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "Signs and Rituals",
 				"type" : 0
 			},
 			"193" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "The Sacrificial Dagger",
 				"type" : 0
 			},
 			"194" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "De Vermis Mysteriis",
 				"type" : 0
 			},
 			"195" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R2-E2R10 door main",
 				"type" : 0
 			},
 			"196" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R2-E2R10 door opening",
 				"type" : 0
 			},
 			"197" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R2-E2R10 door player opening",
 				"type" : 0
 			},
 			"198" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R2-E2R10 door closing",
 				"type" : 0
 			},
 			"199" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R2-E2R10 door player closing",
 				"type" : 0
 			},
 			"2" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E0R0 rocking horse",
 				"type" : 0
 			},
 			"20" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 bird crashing through",
 				"type" : 0
 			},
 			"200" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R10 collider 0",
 				"type" : 0
 			},
 			"201" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R10 script",
 				"type" : 0
 			},
 			"202" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R10 ghost",
 				"type" : 0
 			},
 			"203" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "poker",
 				"type" : 0
 			},
 			"204" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "box of cartridges",
 				"type" : 0
 			},
 			"205" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R10 matchbox",
 				"type" : 0
 			},
 			"206" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "gramophone",
 				"type" : 0
 			},
 			"207" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R10 vortex",
 				"type" : 0
 			},
 			"208" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R3 east door (present when in R0)",
 				"type" : 0
 			},
 			"209" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R3 west door (present when in R0)",
 				"type" : 0
 			},
 			"21" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 bird roaming",
 				"type" : 0
 			},
 			"210" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3 script",
 				"type" : 0
 			},
 			"211" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "north front door opening during opening cutscene",
 				"type" : 0
 			},
 			"212" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "north front door opening during opening cutscene",
 				"type" : 0
 			},
 			"213" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "north front door closing during opening cutscene",
 				"type" : 0
 			},
 			"214" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "north front door main (spawn jelly)",
 				"type" : 0
 			},
 			"215" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "north front door opening (initiate jelly)",
 				"type" : 0
 			},
 			"216" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "south front door opening",
 				"type" : 0
 			},
 			"217" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "north front door player opening",
 				"type" : 0
 			},
 			"218" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "north front door closing (death 3, delete jelly)",
 				"type" : 0
 			},
 			"219" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "north front door player closing",
 				"type" : 0
 			},
 			"22" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R0-E1R1 door main",
 				"type" : 0
 			},
 			"220" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "jelly initiator",
 				"type" : 0
 			},
 			"221" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "south front door opening during opening cutscene",
 				"type" : 0
 			},
 			"222" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "south front door opening during opening cutscene",
 				"type" : 0
 			},
 			"223" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "south front door closing during opening cutscene",
 				"type" : 0
 			},
 			"224" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "south front door main (spawn jelly)",
 				"type" : 0
 			},
 			"225" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "south front door player opening",
 				"type" : 0
 			},
 			"226" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "south front door closing",
 				"type" : 0
 			},
 			"227" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "south front door player closing",
 				"type" : 0
 			},
 			"228" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R1-E3R13 west door main",
 				"type" : 0
 			},
 			"229" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R13 west door opening",
 				"type" : 0
 			},
 			"23" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R0-E1R1 door opening",
 				"type" : 0
 			},
 			"230" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R13 east door opening",
 				"type" : 0
 			},
 			"231" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R13 west door player opening",
 				"type" : 0
 			},
 			"232" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R13 west door closing",
 				"type" : 0
 			},
 			"233" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R13 west door player closing",
 				"type" : 0
 			},
 			"234" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R1-E3R13 east door main",
 				"type" : 0
 			},
 			"235" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R13 east door player opening",
 				"type" : 0
 			},
 			"236" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R13 east door closing",
 				"type" : 0
 			},
 			"237" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R13 east door player closing",
 				"type" : 0
 			},
 			"238" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1 script",
 				"type" : 0
 			},
 			"239" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R1 jelly",
 				"type" : 0
 			},
 			"24" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R0-E1R1 door player opening",
 				"type" : 0
 			},
 			"240" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R1-E3R2 east door main",
 				"type" : 0
 			},
 			"241" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R2 east door opening",
 				"type" : 0
 			},
 			"242" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R2 west door opening",
 				"type" : 0
 			},
 			"243" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R2 east door player opening",
 				"type" : 0
 			},
 			"244" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R2 east door closing",
 				"type" : 0
 			},
 			"245" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R2 east door player closing",
 				"type" : 0
 			},
 			"246" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R1-E3R2 west door main",
 				"type" : 0
 			},
 			"247" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R2 west door player opening",
 				"type" : 0
 			},
 			"248" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R2 west door closing",
 				"type" : 0
 			},
 			"249" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R1-E3R2 west door player closing",
 				"type" : 0
 			},
 			"25" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R0-E1R1 door closing",
 				"type" : 0
 			},
 			"250" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R2-E3R3 south door main",
 				"type" : 0
 			},
 			"251" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2-E3R3 south door opening",
 				"type" : 0
 			},
 			"252" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2-E3R3 north door opening",
 				"type" : 0
 			},
 			"253" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2-E3R3 south door player opening",
 				"type" : 0
 			},
 			"254" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2-E3R3 south door closing",
 				"type" : 0
 			},
 			"255" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2-E3R3 south door player closing",
 				"type" : 0
 			},
 			"256" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R2-E3R3 north door main",
 				"type" : 0
 			},
 			"257" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2-E3R3 north door player opening",
 				"type" : 0
 			},
 			"258" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2-E3R3 north door closing",
 				"type" : 0
 			},
 			"259" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2-E3R3 north door player closing",
 				"type" : 0
 			},
 			"26" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R0-E1R1 door player closing",
 				"type" : 0
 			},
 			"260" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R2 script",
 				"type" : 0
 			},
 			"261" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "dancer 1 dying",
 				"type" : 0
 			},
 			"262" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "dancer 2 dying",
 				"type" : 0
 			},
 			"263" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "dancer 3 dying",
 				"type" : 0
 			},
 			"264" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "key to the dance hall",
 				"type" : 0
 			},
 			"265" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Demonia Particularis",
 				"type" : 0
 			},
 			"266" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2 pirate before player has entered the room",
 				"type" : 0
 			},
 			"267" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R2 pirate when player has left the room",
 				"type" : 0
 			},
 			"268" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R2 pirate aggroed",
 				"type" : 0
 			},
 			"269" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-R0 east door (present when in R3)",
 				"type" : 0
 			},
 			"27" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R0 script",
 				"type" : 0
 			},
 			"270" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-R0 west door (present when in R3)",
 				"type" : 0
 			},
 			"271" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R3-E3R4 south door main",
 				"type" : 0
 			},
 			"272" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-E3R4 south door opening",
 				"type" : 0
 			},
 			"273" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-E3R4 north door opening",
 				"type" : 0
 			},
 			"274" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-E3R4 south door player opening",
 				"type" : 0
 			},
 			"275" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-E3R4 south door closing",
 				"type" : 0
 			},
 			"276" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-E3R4 south door player closing",
 				"type" : 0
 			},
 			"277" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R3-E3R4 north door main",
 				"type" : 0
 			},
 			"278" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-E3R4 north door player opening",
 				"type" : 0
 			},
 			"279" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-E3R4 north door closing",
 				"type" : 0
 			},
 			"28" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R0 oil can",
 				"type" : 0
 			},
 			"280" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3-E3R4 north door player closing",
 				"type" : 0
 			},
 			"281" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R3 script",
 				"type" : 0
 			},
 			"282" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "pirate's key",
 				"type" : 0
 			},
 			"283" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Blue Danube",
 				"type" : 0
 			},
 			"284" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 1 standing still",
 				"type" : 0
 			},
 			"285" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 1 turning into a vortex",
 				"type" : 0
 			},
 			"286" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 1 starting to dance",
 				"type" : 0
 			},
 			"287" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 1 dancing",
 				"type" : 0
 			},
 			"288" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 vortex 1",
 				"type" : 0
 			},
 			"289" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 2 standing still",
 				"type" : 0
 			},
 			"29" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "bow",
 				"type" : 0
 			},
 			"290" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 2 turning into a vortex",
 				"type" : 0
 			},
 			"291" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 2 starting to dance",
 				"type" : 0
 			},
 			"292" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 2 dancing",
 				"type" : 0
 			},
 			"293" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 vortex 2",
 				"type" : 0
 			},
 			"294" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 3 standing still",
 				"type" : 0
 			},
 			"295" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 3 turning into a vortex",
 				"type" : 0
 			},
 			"296" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 3 starting to dance",
 				"type" : 0
 			},
 			"297" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 dancer 3 dancing",
 				"type" : 0
 			},
 			"298" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R3 vortex 3",
 				"type" : 0
 			},
 			"299" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R4-E3R5 door main",
 				"type" : 0
 			},
 			"3" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E0R0 window",
 				"type" : 0
 			},
 			"30" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "arrow 1",
 				"type" : 0
 			},
 			"300" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4-E3R5 door opening",
 				"type" : 0
 			},
 			"301" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4-E3R5 door player opening",
 				"type" : 0
 			},
 			"302" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4-E3R5 door closing",
 				"type" : 0
 			},
 			"303" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4-E3R5 door player closing",
 				"type" : 0
 			},
 			"304" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R4 script",
 				"type" : 0
 			},
 			"305" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "arrow",
 				"type" : 0
 			},
 			"306" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "arrow",
 				"type" : 0
 			},
 			"307" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "arrow",
 				"type" : 0
 			},
 			"308" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 1 falling",
 				"type" : 0
 			},
 			"309" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 1 when player in R4",
 				"type" : 0
 			},
 			"31" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "arrow 2",
 				"type" : 0
 			},
 			"310" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 1 when player not in R4",
 				"type" : 0
 			},
 			"311" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 2 falling",
 				"type" : 0
 			},
 			"312" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 2 when player in R4",
 				"type" : 0
 			},
 			"313" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 2 when player not in R4",
 				"type" : 0
 			},
 			"314" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 3 falling",
 				"type" : 0
 			},
 			"315" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 3 when player in R4",
 				"type" : 0
 			},
 			"316" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 3 when player not in R4",
 				"type" : 0
 			},
 			"317" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 4 falling",
 				"type" : 0
 			},
 			"318" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 4 when player in R4",
 				"type" : 0
 			},
 			"319" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 4 when player not in R4",
 				"type" : 0
 			},
 			"32" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "arrow 3",
 				"type" : 0
 			},
 			"320" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 5 falling",
 				"type" : 0
 			},
 			"321" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 5 when player in R4",
 				"type" : 0
 			},
 			"322" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 5 when player not in R4",
 				"type" : 0
 			},
 			"323" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 6 falling",
 				"type" : 0
 			},
 			"324" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 6 when player in R4",
 				"type" : 0
 			},
 			"325" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R4 spider 6 when player not in R4",
 				"type" : 0
 			},
 			"326" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "cellar door main",
 				"type" : 0
 			},
 			"327" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "cellar door opening",
 				"type" : 0
 			},
 			"328" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "cellar door player opening",
 				"type" : 0
 			},
 			"329" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "cellar door closing",
 				"type" : 0
 			},
 			"33" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R1-E1R3 door main",
 				"type" : 0
 			},
 			"330" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "cellar door player closing",
 				"type" : 0
 			},
 			"331" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R5-E3R8 door main",
 				"type" : 0
 			},
 			"332" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R5-E3R8 door opening",
 				"type" : 0
 			},
 			"333" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R5-E3R8 door player opening",
 				"type" : 0
 			},
 			"334" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R5-E3R8 door closing",
 				"type" : 0
 			},
 			"335" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R5-E3R8 door player closing",
 				"type" : 0
 			},
 			"336" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R5 script",
 				"type" : 0
 			},
 			"337" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R7 script",
 				"type" : 0
 			},
 			"338" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "biscuit box",
 				"type" : 0
 			},
 			"339" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "cellar key",
 				"type" : 0
 			},
 			"34" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R3 door opening",
 				"type" : 0
 			},
 			"340" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R7-E3R8 door main",
 				"type" : 0
 			},
 			"341" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R7-E3R8 door opening",
 				"type" : 0
 			},
 			"342" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R7-E3R8 door player opening",
 				"type" : 0
 			},
 			"343" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R7-E3R8 door closing",
 				"type" : 0
 			},
 			"344" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R7-E3R8 door player closing",
 				"type" : 0
 			},
 			"345" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R8-E3R9 door main",
 				"type" : 0
 			},
 			"346" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R8-E3R9 door opening",
 				"type" : 0
 			},
 			"347" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R8-E3R9 door player opening",
 				"type" : 0
 			},
 			"348" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R8-E3R9 door closing",
 				"type" : 0
 			},
 			"349" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R8-E3R9 door player closing",
 				"type" : 0
 			},
 			"35" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R3 door player opening",
 				"type" : 0
 			},
 			"350" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R8 script",
 				"type" : 0
 			},
 			"351" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R8 matchbox",
 				"type" : 0
 			},
 			"352" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "pot of soup",
 				"type" : 0
 			},
 			"353" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 1 roaming",
 				"type" : 0
 			},
 			"354" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R8 knife",
 				"type" : 0
 			},
 			"355" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R8 knife",
 				"type" : 0
 			},
 			"356" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R8-E3R10 door main",
 				"type" : 0
 			},
 			"357" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R8-E3R10 door opening",
 				"type" : 0
 			},
 			"358" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R8-E3R10 door player opening",
 				"type" : 0
 			},
 			"359" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R8-E3R10 door closing",
 				"type" : 0
 			},
 			"36" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R3 door closing",
 				"type" : 0
 			},
 			"360" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R8-E3R10 door player closing",
 				"type" : 0
 			},
 			"361" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R9 script",
 				"type" : 0
 			},
 			"362" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R10 script",
 				"type" : 0
 			},
 			"363" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R10 oil can",
 				"type" : 0
 			},
 			"364" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "shoe box",
 				"type" : 0
 			},
 			"365" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "revolver",
 				"type" : 0
 			},
 			"366" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R8 zombie",
 				"type" : 0
 			},
 			"367" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R11-E3R13 west door main",
 				"type" : 0
 			},
 			"368" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11-E3R13 west door opening",
 				"type" : 0
 			},
 			"369" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11-E3R13 east door opening",
 				"type" : 0
 			},
 			"37" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R3 door player closing",
 				"type" : 0
 			},
 			"370" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11-E3R13 west door player opening",
 				"type" : 0
 			},
 			"371" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11-E3R13 west door closing",
 				"type" : 0
 			},
 			"372" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11-E3R13 west door player closing",
 				"type" : 0
 			},
 			"373" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R11-E3R13 east door main",
 				"type" : 0
 			},
 			"374" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11-E3R13 east door player opening",
 				"type" : 0
 			},
 			"375" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11-E3R13 east door closing",
 				"type" : 0
 			},
 			"376" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11-E3R13 east door player closing",
 				"type" : 0
 			},
 			"377" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "coat of arms",
 				"type" : 0
 			},
 			"378" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R11 script",
 				"type" : 0
 			},
 			"379" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Dance of Death",
 				"type" : 0
 			},
 			"38" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R1 script",
 				"type" : 0
 			},
 			"380" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "The Tale of Captain Norton",
 				"type" : 0
 			},
 			"381" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R0-E3R12 west door main",
 				"type" : 0
 			},
 			"382" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R12 west door opening",
 				"type" : 0
 			},
 			"383" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R12 east door opening",
 				"type" : 0
 			},
 			"384" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R12 west door player opening",
 				"type" : 0
 			},
 			"385" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R12 west door closing",
 				"type" : 0
 			},
 			"386" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R12 west door player closing",
 				"type" : 0
 			},
 			"387" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R0-E3R12 east door main",
 				"type" : 0
 			},
 			"388" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R12 east door player opening",
 				"type" : 0
 			},
 			"389" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R12 east door closing",
 				"type" : 0
 			},
 			"39" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "death manager",
 				"type" : 0
 			},
 			"390" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R0-E3R12 east door player closing",
 				"type" : 0
 			},
 			"391" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R9-E3R12 door main",
 				"type" : 0
 			},
 			"392" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R9-E3R12 door opening",
 				"type" : 0
 			},
 			"393" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R9-E3R12 door player opening",
 				"type" : 0
 			},
 			"394" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R9-E3R12 door closing",
 				"type" : 0
 			},
 			"395" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R9-E3R12 door player closing",
 				"type" : 0
 			},
 			"396" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 2 sitting",
 				"type" : 0
 			},
 			"397" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 2 starting to roam",
 				"type" : 0
 			},
 			"398" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 2 rotating in chair",
 				"type" : 0
 			},
 			"399" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 2 dying while sitting",
 				"type" : 0
 			},
 			"4" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E0R0 window breaking",
 				"type" : 0
 			},
 			"40" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R1-E1R2 door main",
 				"type" : 0
 			},
 			"400" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 2 roaming",
 				"type" : 0
 			},
 			"401" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 3 sitting",
 				"type" : 0
 			},
 			"402" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 3 starting to roam",
 				"type" : 0
 			},
 			"403" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 3 rotating in chair",
 				"type" : 0
 			},
 			"404" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 3 dying while sitting",
 				"type" : 0
 			},
 			"405" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 3 roaming",
 				"type" : 0
 			},
 			"406" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 4 sitting",
 				"type" : 0
 			},
 			"407" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 4 starting to roam",
 				"type" : 0
 			},
 			"408" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 4 rotating in chair",
 				"type" : 0
 			},
 			"409" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 4 dying while sitting",
 				"type" : 0
 			},
 			"41" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R2 door opening",
 				"type" : 0
 			},
 			"410" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 4 roaming",
 				"type" : 0
 			},
 			"411" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 5 sitting",
 				"type" : 0
 			},
 			"412" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 5 starting to roam",
 				"type" : 0
 			},
 			"413" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 5 rotating in chair",
 				"type" : 0
 			},
 			"414" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 5 dying while sitting",
 				"type" : 0
 			},
 			"415" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 zombie 5 roaming",
 				"type" : 0
 			},
 			"416" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 1 sitting",
 				"type" : 0
 			},
 			"417" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 1 dying while sitting",
 				"type" : 0
 			},
 			"418" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 1 homing towards chair",
 				"type" : 0
 			},
 			"419" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 1 rotating to sit down",
 				"type" : 0
 			},
 			"42" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R2 door player opening",
 				"type" : 0
 			},
 			"420" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12 zombie 1 starting to sit",
 				"type" : 0
 			},
 			"421" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12 script",
 				"type" : 0
 			},
 			"422" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12-E3R13 door closing",
 				"type" : 0
 			},
 			"423" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R12-E3R13 door main",
 				"type" : 0
 			},
 			"424" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12-E3R13 door opening",
 				"type" : 0
 			},
 			"425" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12-E3R13 door player opening",
 				"type" : 0
 			},
 			"426" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R12-E3R13 door player closing",
 				"type" : 0
 			},
 			"427" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "ashtray",
 				"type" : 0
 			},
 			"428" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3R13 script",
 				"type" : 0
 			},
 			"429" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "lighter",
 				"type" : 0
 			},
 			"43" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R2 door closing",
 				"type" : 0
 			},
 			"430" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Memories",
 				"type" : 0
 			},
 			"431" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Opus Posthumous 69 Nr 1",
 				"type" : 0
 			},
 			"432" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "barrel 1",
 				"type" : 0
 			},
 			"433" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "barrel 1 rolling",
 				"type" : 0
 			},
 			"434" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "barrel 2",
 				"type" : 0
 			},
 			"435" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "barrel 2 rolling",
 				"type" : 0
 			},
 			"436" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E4R0 script",
 				"type" : 0
 			},
 			"437" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "block",
 				"type" : 0
 			},
 			"438" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "The Trial of Captain Pregzt",
 				"type" : 0
 			},
 			"439" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E4R0 bullets",
 				"type" : 0
 			},
 			"44" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R2 door player closing",
 				"type" : 0
 			},
 			"440" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "rat 1 initiator",
 				"type" : 0
 			},
 			"441" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "rat 1 patrolling",
 				"type" : 0
 			},
 			"442" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "rat 1 aggroed",
 				"type" : 0
 			},
 			"443" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "rat 2 initiator",
 				"type" : 0
 			},
 			"444" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "rat 2 patrolling",
 				"type" : 0
 			},
 			"445" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "rat 2 aggroed",
 				"type" : 0
 			},
 			"446" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "rat 3 initiator",
 				"type" : 0
 			},
 			"447" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "rat 3 patrolling",
 				"type" : 0
 			},
 			"448" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "rat 3 aggroed",
 				"type" : 0
 			},
 			"449" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R0 falling bridge",
 				"type" : 0
 			},
 			"45" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R2 chest",
 				"type" : 0
 			},
 			"450" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R0 falling bridge",
 				"type" : 0
 			},
 			"451" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R0 falling bridge",
 				"type" : 0
 			},
 			"452" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R0 falling bridge",
 				"type" : 0
 			},
 			"453" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R0 falling bridge",
 				"type" : 0
 			},
 			"454" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R0 falling bridge",
 				"type" : 0
 			},
 			"455" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R0 falling bridge",
 				"type" : 0
 			},
 			"456" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R0 falling bridge",
 				"type" : 0
 			},
 			"457" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5R0 script",
 				"type" : 0
 			},
 			"458" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "Cthonian initiator",
 				"type" : 0
 			},
 			"459" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "Cthonian if you came from E4",
 				"type" : 0
 			},
 			"46" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R2 script",
 				"type" : 0
 			},
 			"460" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "Cthonian before starting to move if you came from E5R1",
 				"type" : 0
 			},
 			"461" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Cthonian after starting to move if you came from E5R1",
 				"type" : 0
 			},
 			"462" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "Cthonian after rounding the corner near E5R7",
 				"type" : 0
 			},
 			"463" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "deleting the first boulder in E5R4",
 				"type" : 0
 			},
 			"464" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "deleting the second boulder in E5R4",
 				"type" : 0
 			},
 			"465" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5R4 script",
 				"type" : 0
 			},
 			"466" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R4 bird initiator",
 				"type" : 0
 			},
 			"467" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5R4 bird roaming",
 				"type" : 0
 			},
 			"468" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R6 script",
 				"type" : 0
 			},
 			"469" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R6 spider climbing",
 				"type" : 0
 			},
 			"47" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "saber blade",
 				"type" : 0
 			},
 			"470" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R6 spider initiator",
 				"type" : 0
 			},
 			"471" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R6 spider roaming",
 				"type" : 0
 			},
 			"472" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R7 falling bridge",
 				"type" : 0
 			},
 			"473" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "step sound switch",
 				"type" : 0
 			},
 			"474" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5 Deep One spawner",
 				"type" : 0
 			},
 			"475" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5 Deep One initiator",
 				"type" : 0
 			},
 			"476" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5 Deep One roaming",
 				"type" : 0
 			},
 			"477" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R8 script",
 				"type" : 0
 			},
 			"478" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R8 wasp initiator",
 				"type" : 0
 			},
 			"479" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5R8 wasp patrolling",
 				"type" : 0
 			},
 			"48" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E3R11 desk moving",
 				"type" : 0
 			},
 			"480" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5R8 wasp aggroed",
 				"type" : 0
 			},
 			"481" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R9 hook door",
 				"type" : 0
 			},
 			"482" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R9 script",
 				"type" : 0
 			},
 			"483" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "beetle idling",
 				"type" : 0
 			},
 			"484" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "beetle roaming",
 				"type" : 0
 			},
 			"485" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"486" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"487" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"488" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"489" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"49" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "old cavalry saber",
 				"type" : 0
 			},
 			"490" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"491" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"492" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"493" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"494" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"495" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"496" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"497" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 falling bridge segment",
 				"type" : 0
 			},
 			"498" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 script 1 (doesn't work)",
 				"type" : 0
 			},
 			"499" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 wasp initiator",
 				"type" : 0
 			},
 			"5" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E0R0 floor hatch opening",
 				"type" : 0
 			},
 			"50" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R2 chest key",
 				"type" : 0
 			},
 			"500" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 wasp patrolling",
 				"type" : 0
 			},
 			"501" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5R10 wasp aggroed",
 				"type" : 0
 			},
 			"502" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R11 boulder",
 				"type" : 0
 			},
 			"503" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5R11 chest",
 				"type" : 0
 			},
 			"504" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E5R10 script 2",
 				"type" : 0
 			},
 			"505" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "gem",
 				"type" : 0
 			},
 			"506" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R5 door opening",
 				"type" : 0
 			},
 			"507" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "A Pirate's Log book",
 				"type" : 0
 			},
 			"508" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R0 hook door",
 				"type" : 0
 			},
 			"509" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6 script",
 				"type" : 0
 			},
 			"51" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R2 zombie initiator",
 				"type" : 0
 			},
 			"510" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R5 gem door",
 				"type" : 0
 			},
 			"511" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R5 script",
 				"type" : 0
 			},
 			"512" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R6 hook door",
 				"type" : 0
 			},
 			"513" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R6 hook door opening",
 				"type" : 0
 			},
 			"514" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6R6 script",
 				"type" : 0
 			},
 			"515" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R6 Deep One initiator",
 				"type" : 0
 			},
 			"516" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "hook",
 				"type" : 0
 			},
 			"517" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6R6 Deep One",
 				"type" : 0
 			},
 			"518" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6R6 fireball and talisman script",
 				"type" : 0
 			},
 			"519" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R6 fireball 1 script 1",
 				"type" : 0
 			},
 			"52" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R2 zombie activator",
 				"type" : 0
 			},
 			"520" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R6 fireball 2 script 1",
 				"type" : 0
 			},
 			"521" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R6 during first cutscene",
 				"type" : 0
 			},
 			"522" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6R6 Pregzt after placing talisman",
 				"type" : 0
 			},
 			"523" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6R6 fireball 1 script 2",
 				"type" : 0
 			},
 			"524" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R6 fireball 1 script 3",
 				"type" : 0
 			},
 			"525" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6R6 fireball 2 script 2",
 				"type" : 0
 			},
 			"526" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E6R6 fireball 2 script 3",
 				"type" : 0
 			},
 			"527" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6R6 falling boulders",
 				"type" : 0
 			},
 			"528" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0 random noises",
 				"type" : 0
 			},
 			"529" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1 random noises",
 				"type" : 0
 			},
 			"53" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R2 zombie",
 				"type" : 0
 			},
 			"530" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2 random noises",
 				"type" : 0
 			},
 			"531" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E3 random noises",
 				"type" : 0
 			},
 			"532" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E4 random noises",
 				"type" : 0
 			},
 			"533" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E5 script and random noises",
 				"type" : 0
 			},
 			"534" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E6 script and random noises",
 				"type" : 0
 			},
 			"535" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "endgame chauffeur",
 				"type" : 0
 			},
 			"536" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "endgame timer start",
 				"type" : 0
 			},
 			"537" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "intro player outside initiator",
 				"type" : 0
 			},
 			"538" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "intro player outside",
 				"type" : 0
 			},
 			"539" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "intro player inside",
 				"type" : 0
 			},
 			"54" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R3 first aid cabinet",
 				"type" : 0
 			},
 			"540" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "intro player inside initiator",
 				"type" : 0
 			},
 			"541" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "intro car driving off",
 				"type" : 0
 			},
 			"542" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "endgame player outside initiator",
 				"type" : 0
 			},
 			"543" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "endgame player cheering",
 				"type" : 0
 			},
 			"544" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "endgame player walking to gate",
 				"type" : 0
 			},
 			"545" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "endgame car arriving",
 				"type" : 0
 			},
 			"546" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "intro car initiator",
 				"type" : 0
 			},
 			"547" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "intro car arriving",
 				"type" : 0
 			},
 			"548" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "endgame car departing",
 				"type" : 0
 			},
 			"549" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "player normal",
 				"type" : 0
 			},
 			"55" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R3 first aid cabinet closing",
 				"type" : 0
 			},
 			"550" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "player floor transitions",
 				"type" : 0
 			},
 			"551" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "player falling",
 				"type" : 0
 			},
 			"552" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "player climbing",
 				"type" : 0
 			},
 			"553" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "player hit by something",
 				"type" : 0
 			},
 			"554" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "'The End' after certain deaths",
 				"type" : 0
 			},
 			"555" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "changing room to E6R6 after death",
 				"type" : 0
 			},
 			"556" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "player dragged by zombie",
 				"type" : 0
 			},
 			"557" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "zombie dragging player",
 				"type" : 0
 			},
 			"558" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "player dragged by zombie 2",
 				"type" : 0
 			},
 			"559" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "player after climbing",
 				"type" : 0
 			},
 			"56" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R3 script",
 				"type" : 0
 			},
 			"560" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "player landing",
 				"type" : 0
 			},
 			"561" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "actions",
 				"type" : 0
 			},
 			"562" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "game start and preparing end sequence",
 				"type" : 0
 			},
 			"57" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R3 first aid case",
 				"type" : 0
 			},
 			"58" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R3 flask",
 				"type" : 0
 			},
 			"59" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "drinking flask",
 				"type" : 0
 			},
 			"6" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E0R0 floor hatch closing",
 				"type" : 0
 			},
 			"60" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R1-E1R4 door main",
 				"type" : 0
 			},
 			"61" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R4 door opening",
 				"type" : 0
 			},
 			"62" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R4 door player opening",
 				"type" : 0
 			},
 			"63" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R4 door closing",
 				"type" : 0
 			},
 			"64" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R4 door player closing",
 				"type" : 0
 			},
 			"65" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R4 window",
 				"type" : 0
 			},
 			"66" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R4 script",
 				"type" : 0
 			},
 			"67" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "vase",
 				"type" : 0
 			},
 			"68" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "vase breaking",
 				"type" : 0
 			},
 			"69" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "dresser's key",
 				"type" : 0
 			},
 			"7" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 script",
 				"type" : 0
 			},
 			"70" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "mirror 1",
 				"type" : 0
 			},
 			"71" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "mirror 2",
 				"type" : 0
 			},
 			"72" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R4 bird initiator ",
 				"type" : 0
 			},
 			"73" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R4 bird crashing through",
 				"type" : 0
 			},
 			"74" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R4 bird roaming",
 				"type" : 0
 			},
 			"75" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R1-E1R5 door main",
 				"type" : 0
 			},
 			"76" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R5 door opening",
 				"type" : 0
 			},
 			"77" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R5 door player opening",
 				"type" : 0
 			},
 			"78" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R5 door closing",
 				"type" : 0
 			},
 			"79" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R5 door player closing",
 				"type" : 0
 			},
 			"8" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E0R0 piano",
 				"type" : 0
 			},
 			"80" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R5 vanity",
 				"type" : 0
 			},
 			"81" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R5 script",
 				"type" : 0
 			},
 			"82" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R0 zombie initiator",
 				"type" : 0
 			},
 			"83" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R0 zombie patrolling",
 				"type" : 0
 			},
 			"84" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R0 zombie aggroed",
 				"type" : 0
 			},
 			"85" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R1-E1R7 door main",
 				"type" : 0
 			},
 			"86" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R7 door opening",
 				"type" : 0
 			},
 			"87" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R7 door player opening",
 				"type" : 0
 			},
 			"88" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R7 door closing",
 				"type" : 0
 			},
 			"89" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E1R1-E1R7 door player closing",
 				"type" : 0
 			},
 			"9" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "oil lamp",
 				"type" : 0
 			},
 			"90" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R7 script",
 				"type" : 0
 			},
 			"91" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R7 north nightgaunt",
 				"type" : 0
 			},
 			"92" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E1R7 south nightgaunt",
 				"type" : 0
 			},
 			"93" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 south door closing when first entering E2",
 				"type" : 0
 			},
 			"94" : 
 			{
 				"default_compr" : 1,
-				"info" : "?",
+				"info" : "E2R0-E2R2 south door main",
 				"type" : 0
 			},
 			"95" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 south door opening",
 				"type" : 0
 			},
 			"96" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 north door opening",
 				"type" : 0
 			},
 			"97" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 south door player opening",
 				"type" : 0
 			},
 			"98" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 south door closing",
 				"type" : 0
 			},
 			"99" : 
 			{
 				"default_compr" : 0,
-				"info" : "?",
+				"info" : "E2R0-E2R2 south door player closing",
 				"type" : 0
 			}
 		},
@@ -13210,7 +13210,7 @@
 				"type" : 6
 			}
 		},
-			"USA.PAK" : 
+		"USA.PAK" : 
 		{
 			"0" : 
 			{
@@ -13293,13 +13293,13 @@
 			"20" : 
 			{
 				"default_compr" : 1,
-				"info" : "Edward Carnby’s introduction (U.S. English)",
+				"info" : "Edward Carnby\u2019s introduction (U.S. English)",
 				"type" : 1
 			},
 			"21" : 
 			{
 				"default_compr" : 1,
-				"info" : "Emily Hartwood’s introduction (U.S. English)",
+				"info" : "Emily Hartwood\u2019s introduction (U.S. English)",
 				"type" : 1
 			},
 			"3" : 
@@ -13346,7 +13346,7 @@
 			}
 		}
 	},
-	"date" : "2017/8/29",
+	"date" : "2023/5/21",
 	"file_types" : 
 	[
 		"Unknown",
@@ -13355,6 +13355,7 @@
 		"Rooms",
 		"Cameras",
 		"Sound",
-		"Palette+Image"
+		"Palette+Image",
+		"Body"
 	]
 }

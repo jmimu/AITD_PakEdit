@@ -19,6 +19,13 @@ with minimal modifications from commit eafabb8cffb09.
 
 Uses jsoncpp (github.com/open-source-parsers/jsoncpp).
 
+Info sources:
+ - https://github.com/yaz0r/FITD
+ - https://kb.speeddemosarchive.com/Alone_in_the_Dark_(1-3)/Game_Mechanics_and_Glitches
+ - https://github.com/tigrouind/AITD-roomviewer
+ - https://github.com/tigrouind/AITD-tools/tree/master
+
+
 Compiling
 ---------
 
