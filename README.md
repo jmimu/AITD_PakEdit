@@ -92,7 +92,7 @@ TODO
 
 CD VS Floppy version
 --------------------
-  * new presentation picture (with correct head)
+  * new presentation pictures (with correct head)
   * 4 sounds removed
   * audio CD music (FM seems to be still present in PAK)
   * voice acting (VOC files not copied to hard disk)

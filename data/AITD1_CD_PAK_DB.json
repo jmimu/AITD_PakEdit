@@ -7168,7 +7168,7 @@
 				"type" : 7
 			}
 		},
-				"LISTBODY.PAK" : 
+		"LISTBODY.PAK" : 
 		{
 			"0" : 
 			{
@@ -11895,6 +11895,12 @@
 				"info" : "?",
 				"type" : 0
 			},
+			"562" : 
+			{
+				"default_compr" : 1,
+				"info" : "?",
+				"type" : 0
+			},
 			"57" : 
 			{
 				"default_compr" : 1,
@@ -13170,7 +13176,7 @@
 			"4" : 
 			{
 				"default_compr" : 1,
-				"info" : "Demo pic",
+				"info" : "Demo pic (fake head)",
 				"type" : 6
 			},
 			"5" : 
