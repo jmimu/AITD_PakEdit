@@ -104,9 +104,11 @@ CD VS Floppy version
   * audio CD music (FM seems to be still present in PAK)
   * voice acting (VOC files not copied to hard disk)
   * pictures names in CAMERA PAKs
-  * languages modifications (TODO: investigate)
-  * ETAGE modifications (TODO: investigate)
-  * animation modifications (TODO: investigate)
+  * languages modifications
+  * ETAGE modifications
+  * animation modifications
+  * LIFE modifications
+
 
 Changelog
 ---------
