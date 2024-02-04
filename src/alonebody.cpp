@@ -39,8 +39,8 @@ bool body2ply(AloneFile *file)
     fprintf(f,"end_header\n");
     for (unsigned int i=0;i<body->m_vertices.size();i++)
     {
-        //fprintf(f,"%f %f %f\n", v.x/1000.0, -v.z/1000.0, -v.y/1000.0);
-        fprintf(f,"%f %f %f\n", pointBuffer[i*3+0]/1000.0, -pointBuffer[i*3+2]/1000.0, -pointBuffer[i*3+1]/1000.0);
+        //fprintf(f,"%f %f %f\n", -v.x/1000.0, -v.z/1000.0, -v.y/1000.0);
+        fprintf(f,"%f %f %f\n", -pointBuffer[i*3+0]/1000.0, -pointBuffer[i*3+2]/1000.0, -pointBuffer[i*3+1]/1000.0);
     }
     for (auto &pr: body->m_primitives)
     {

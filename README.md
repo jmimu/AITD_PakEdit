@@ -112,6 +112,8 @@ CD VS Floppy version
 
 Changelog
 ---------
+v0.10
+  * fix body ply flip
 
 v0.09
   * fix cameras in etage export
